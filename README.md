@@ -23,9 +23,7 @@ python main.py 30
 
 ouvrez ces deux fichiers et prenez le temps de les lire; que pouvez-vous en dire ?
 
-***
-***
-***
+Le fichier fibonacci.py propose un code naïf et peu optimal pour calculer les termes de la suite de Fibonacci. Le fichier main.py permet d'interagir depuis le terminal avec cette fonction contenue dans fibonacci.py et d'en afficher le résultat sur le terminal.
 
 * la fonction `fibo()` est écrite de manière totalement sous-optimale, sa complexité est en $O(2^n)$
 * on utilise `sys.argv` pour faire l'acquisition lire la ligne de commande  
